@@ -4,7 +4,7 @@ Doss-Attack A Denial of Service (DoS) attack is a malicious attempt to disrupt t
 ## Usage
 ```
 [*] clone tools
-git clone https://github.com/K1M4K-ID/Doss-Attack
+git clone https://github.com/K1M4K-ID/Doss-Attack;cd Doss-Attack
 
 [*] Start Hack.
 bash startDOS.sh
