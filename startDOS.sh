@@ -8,7 +8,7 @@ if [ -e /usr/local/bin/doss ]; then
     sleep 2
 else
     sleep 1
-    tar -xvf index.tar.gz &> /dev/null;chmod 777 doss;mv doss /usr/local/bin/
+    tar -xvf index.tar.gz &> /dev/null;rm -fr index.tar.gz;chmod 777 doss;mv doss /usr/local/bin/
     sleep 2
 fi
 if command -v perl &> /dev/null; then
